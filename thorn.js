@@ -113,7 +113,7 @@ function main() {
     // document.addEventListener('click', onMouseClick, false);
   
     function render(time) {
-      time *= 0.01;
+      time *= 0.0001;
       
       if(!freeze){
         camera.position.y += 0.1;
