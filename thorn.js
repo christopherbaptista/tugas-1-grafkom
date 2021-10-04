@@ -113,7 +113,7 @@ function main() {
     // document.addEventListener('click', onMouseClick, false);
   
     function render(time) {
-      time *= 0.0001;
+      time *= 0.001;
       
   
       if (resizeRendererToDisplaySize(renderer)) {
